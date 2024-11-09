@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="StyleSheet" href="style.css">
+    </head>
+<body>
+    <h1>Evento de la caja y boton</h1>
+    <hr>
+    <input type="text" id="caja1" placeholder="Escribe Algo">
+    <input type="text" id="caja2" placeholder="Escribe Algo">
+    <button onclick="monstrar()">Mostrar mensaje</button>
+    <script>
+        function monstrar(){
+            var texto = document.getElementById('caja1').value;
+            //alert("Hola " + texto + " desde javascript");
+            document.getElementById('caja1').value = "copia de texto";
+            document.getElementById('caja2').value;
+        }
+    </script>
+</body>
+</html>

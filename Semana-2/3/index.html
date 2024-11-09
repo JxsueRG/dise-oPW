@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cambio color fondo DIV</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/colores.js"></script>
+    </head>
+    <body>
+        <div class="color-selector">
+            <h3>Selecciona un color</h3>
+            <label> <input type="radio" name="color" value="red" onclick="cambiarColor(this.value)">Rojo</label><br>
+            <label> <input type="radio" name="color" value="green" onclick="cambiarColor(this.value)">Verde</label><br>
+            <label> <input type="radio" name="color" value="orange" onclick="cambiarColor(this.value)">Naranja</label><br>
+            <label> <input type="radio" name="color" value="blue" onclick="cambiarColor(this.value)">Azul</label><br>
+            <label> <input type="radio" name="color" value="purple" onclick="cambiarColor(this.value)">Morado</label><br>
+            <label> <input type="radio" name="color" value="black" onclick="cambiarColor(this.value)">Negro</label><br>
+            <label> <input type="radio" name="color" value="pink" onclick="cambiarColor(this.value)">Rosita</label><br>
+        </div>
+        <div class="color-box" id="cajaColores">
+            COLOR DE FONDO
+        </div>
+    </body>
+</html>
